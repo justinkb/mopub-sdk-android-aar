@@ -7,7 +7,7 @@ cd ..
 rm -rf $DIR
 
 # Checkout and track the gh-pages branch
-git clone -b gh-pages --single-branch https://github.com/minakov/mopub-sdk-android-aar.git $DIR
+git clone -b gh-pages --single-branch git@github.com:justinkb/mopub-sdk-android-aar.git $DIR
 
 # Delete everything
 cd $DIR
